@@ -1,5 +1,5 @@
 {
-  "name": "react-native-ntp-sync",
+  "name": "@boxcc/react-native-ntp-sync",
   "version": "1.0.4",
   "description": "Sync time using NTP servers",
   "main": "index.js",
@@ -29,7 +29,6 @@
   "homepage": "https://github.com/incrementing/react-native-ntp-sync#readme",
   "dependencies": {
     "buffer": "^5.6.0",
-    "react-native-background-timer": "^2.4.1",
     "react-native-udp": "^4.0.3"
   },
   "devDependencies": {

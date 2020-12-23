@@ -1,10 +1,3 @@
-import BackgroundTimer from "react-native-background-timer";
-setInterval = (fn, ms = 0) => {
-  const numberMs = Number(ms);
-  if (isNaN(numberMs)) return BackgroundTimer.setInterval(fn, 0);
-  return BackgroundTimer.setInterval(fn, numberMs);
-};
-
 let NTPSync = function () {
   this.client = require("./client");
 
